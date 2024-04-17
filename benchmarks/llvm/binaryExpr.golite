@@ -1,0 +1,9 @@
+func main() {
+
+    var a, b int;
+    var c bool;
+
+    a = 5;
+    b = (a + 7) * 3;
+    c = ((true) && (true));
+}

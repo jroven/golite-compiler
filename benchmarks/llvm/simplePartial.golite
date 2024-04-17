@@ -1,0 +1,13 @@
+type Point2D struct {
+	x int; 
+	y int; 
+};
+
+func main() {
+	var a, b int;
+	var pt1, pt2 *Point2D; 
+	a = 5;
+	b = (a + 7) * 3; 
+	pt1.x = a; 
+	pt1.y = b; 
+}

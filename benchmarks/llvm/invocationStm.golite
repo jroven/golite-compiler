@@ -1,0 +1,8 @@
+func doSomething(a int, b int) {
+    
+}
+
+func main() {
+    var a, b int;
+    doSomething(a, b);
+}

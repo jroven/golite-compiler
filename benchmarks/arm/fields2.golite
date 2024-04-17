@@ -1,0 +1,14 @@
+type LinkedList struct {
+    v int;
+    next *LinkedList;
+};
+
+func main() {
+    var x int; 
+    var l *LinkedList;
+    l = new LinkedList;
+    l.next = new LinkedList;
+    l.next.v = 2;
+    x = l.next.v;
+    printf("%d\n", x);
+}

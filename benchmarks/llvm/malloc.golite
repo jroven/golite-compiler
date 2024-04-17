@@ -1,0 +1,10 @@
+type Point2D struct {
+	x int; 
+	y int; 
+};
+
+func main() {
+    var a *Point2D;
+    a = new Point2D;
+    delete a;
+}

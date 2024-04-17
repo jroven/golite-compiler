@@ -1,0 +1,6 @@
+func main() {
+    var a int;
+    scan a;
+    printf("The number is %d.\n",a);
+    printf("The number is now %d.\n",a);
+}

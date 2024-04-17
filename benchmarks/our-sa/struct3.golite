@@ -1,0 +1,19 @@
+type Struct1 struct {
+    a int; 
+    b int; 
+};
+
+type Struct2 struct {
+    c bool;
+};
+
+func foo(x int) int {
+	var y *Struct1;
+    y.a = x;
+    y.c = 5;
+    return x;
+}
+
+func main() {
+	
+}

@@ -1,0 +1,1 @@
+/usr/lib/go-1.21/bin/go build -o golitec proj-optimization-overlords/golite

@@ -1,0 +1,11 @@
+func main() {
+    var a int;
+    scan a;
+    printf("a = %d\n", a);
+    if (a < 10) {
+        a = 13;
+        printf("a = %d\n", a);
+    }
+    a = 15;
+    printf("a = %d\n", a);
+}

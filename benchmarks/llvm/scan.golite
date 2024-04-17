@@ -1,0 +1,9 @@
+//var globalInit int; 
+
+func main() {
+	var a int;
+	scan a;
+	printf("a = %d\n", a);
+	//scan globalInit;
+	//printf("globalInit = %d\n", globalInit);
+}

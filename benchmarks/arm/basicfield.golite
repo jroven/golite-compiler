@@ -1,0 +1,13 @@
+type Point struct {
+    x int;
+    y int;
+};
+
+func main() {
+    var x int; 
+    var p *Point;
+    p = new Point;
+    p.x = 5;
+    x = p.x;
+    printf("p.x = %d\n", x);
+}

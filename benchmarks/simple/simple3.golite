@@ -1,0 +1,18 @@
+type simple struct {
+    one int; 
+    b bool;
+};
+
+var globalfoo *simple;
+
+func add(x int, y int) int {
+    var z int;
+    return x + y;
+}
+
+func main() {
+
+    var a int;
+
+    a = 3 + 4 + 5;
+}

@@ -1,0 +1,20 @@
+type Point2D struct {
+    x int;
+    y int;
+};
+
+func PrintPoint(p *Point2D) {
+    var x,y int;
+    x = p.x;
+    y = p.y;
+    printf("Point: (%d, %d)\n", x, y);
+}
+
+func main() {
+    var p *Point2D;
+    p = new Point2D;
+    p.x = 10;
+    p.y = 20;
+    printf("Expected Point Print: (%d, %d)\n", p.x, p.y);
+    PrintPoint(p);
+}

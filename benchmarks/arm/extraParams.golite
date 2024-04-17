@@ -1,0 +1,19 @@
+func foo(a int, b int, c int, d int, e int, f int, g int, h int, i int, j int) int {
+    return a + b + c + d + e + f + g + h + i + j;
+}
+
+func main() {
+    var k, l, m, n, o, p, q, r, s, t, u int;
+    k = 1;
+    l = 2;
+    m = 3;
+    n = 4;
+    o = 5;
+    p = 6;
+    q = 7;
+    r = 8;
+    s = 9;
+    t = 10;
+    u = foo(k, l, m, n, o, p, q, r, s, t);
+    printf("u = %d\n", u);
+}

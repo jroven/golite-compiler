@@ -1,0 +1,7 @@
+var globalfoo *foo;
+
+func add(x int, y int) int {
+    return x + y;
+}
+
+return int x;

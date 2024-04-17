@@ -1,0 +1,21 @@
+type Point struct {
+    x int;
+    y int;
+};
+
+type Graph struct {
+    pt1 *Point;
+    pt2 *Point;
+    pt3 *Point;
+};
+
+func main() {
+    var x int; 
+    var g *Graph;
+    g = new Graph;
+    scan x; 
+    g.pt3 = new Point;
+    g.pt3.y = x;
+    //x = g.pt3.y;
+    //printf("g.pt3.y = %d\n", x);
+}

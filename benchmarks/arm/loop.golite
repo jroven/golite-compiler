@@ -1,0 +1,13 @@
+func main() {
+    var a int;
+    a = 1;
+    printf("a = %d\n", a);
+    printf("entering loop\n");
+    for (a < 10) {
+        a = a + 1;
+        printf("a = %d\n", a);
+    }
+    printf("exited loop\n");
+    a = 2;
+    printf("a = %d\n", a);
+}

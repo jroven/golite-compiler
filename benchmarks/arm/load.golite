@@ -1,0 +1,6 @@
+func main() {
+    var a, b int;
+    a = 129;
+    b = a;
+    printf("num = %d\n", 5);
+}

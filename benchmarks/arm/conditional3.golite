@@ -1,0 +1,8 @@
+func main() {
+    var a int;
+    a = 5;
+    for (a > 0) {
+        a = a - 1;
+        printf("a = %d\n", a);
+    }
+}

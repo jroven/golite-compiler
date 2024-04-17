@@ -1,0 +1,18 @@
+func foo(a int) int {
+    var b int;
+    b = 3;
+
+    if ((a > 5) || true) {
+        b = 4;
+    }
+
+    return 0;
+}
+
+func main() {
+    var c, d, e int;
+    c = 1;
+    d = 2;
+    e = foo(c);
+    d = foo(e);
+}

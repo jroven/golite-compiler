@@ -1,0 +1,20 @@
+var global int;
+
+func foo() int {
+    printf("in foo\n");
+    return global;
+}
+
+func bar() {
+    printf("in bar\n");
+    return;
+}
+
+func main() {
+    var a int;
+    global = 5;
+    bar();
+    printf("after bar\n");
+    a = foo();
+    printf("a = %d\n", a);
+}

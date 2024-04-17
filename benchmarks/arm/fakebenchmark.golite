@@ -1,0 +1,8 @@
+func add(a int) int {
+   return a + 1;
+}
+func main () {
+  var c int;
+  c = add(7);
+  printf("%d\n",c);
+}

@@ -1,0 +1,10 @@
+func tailrecursive(num int) {
+    if(num <= 0) {
+        return;
+    }
+    tailrecursive(num-1);
+}
+
+func main() {
+    tailrecursive(1);
+}

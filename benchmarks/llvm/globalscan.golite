@@ -1,0 +1,21 @@
+var maxrange int;
+
+func getmaxrange (maxrange int) int {
+   printf("maxrange called with maxrange=%d\n", maxrange);
+   if (maxrange <= 1) {
+      scan maxrange; 
+      printf("pre return maxrange=%d\n", maxrange);
+      getmaxrange (maxrange);
+   } else {
+        printf("else returning maxrange=%d\n", maxrange);
+        return maxrange;
+   }
+   printf("final returning maxrange=%d\n", maxrange);
+   return maxrange;
+}
+
+func main() {
+    maxrange = 0;
+    maxrange = getmaxrange (maxrange);
+    printf("maxrange=%d\n", maxrange);
+}

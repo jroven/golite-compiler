@@ -1,0 +1,6 @@
+var gVar1 int;
+var gVar2 int;
+func main() {
+    gVar1 = 10;
+    gVar2 = gVar1 + 3;
+}

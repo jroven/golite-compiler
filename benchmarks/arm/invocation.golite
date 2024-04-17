@@ -1,0 +1,13 @@
+func doSomething(a int, b int) {
+    var c int;
+    c = a;
+    printf("c=%d\n",c);
+}
+
+func main() {
+    var a, b int;
+    a = 15;
+    b = 30;
+    doSomething(a, b);
+    printf("b=%d\n",b);
+}

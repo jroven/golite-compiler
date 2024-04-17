@@ -1,0 +1,11 @@
+func foo(x int) {
+    return x;
+}
+
+func bar(x int) int{
+    return (x == 5);
+}
+
+func main() {
+
+}

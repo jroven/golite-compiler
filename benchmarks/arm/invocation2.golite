@@ -1,0 +1,7 @@
+func printThis(a int) {
+    printf("a=%d\n", a);
+}
+
+func main() {
+    printThis(90);
+}

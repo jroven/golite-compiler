@@ -1,0 +1,15 @@
+func foo(a int) int {
+    printf("entering foo\n");
+    if (a == 3) {
+        printf("a == 3\n");
+        return a;
+    }
+    return 2;
+}
+
+func main() {
+    var x, y int;
+    x = 1;
+    y = foo(x);
+    printf("x = %d\ny = %d\n", x, y);
+}

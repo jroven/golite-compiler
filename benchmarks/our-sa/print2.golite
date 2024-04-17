@@ -1,0 +1,9 @@
+func main() {
+    var x, y int;
+    var z bool;
+    x = 1;
+    y = 2;
+    z = true;
+    printf("%d=%d\n",x,y);
+    printf("%d\n",z);
+}

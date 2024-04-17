@@ -1,0 +1,13 @@
+type simple struct {
+    one int; 
+    b bool;
+};
+
+var globalfoo *simple;
+
+func main() {
+
+    var a int;
+
+    a = 5;
+}

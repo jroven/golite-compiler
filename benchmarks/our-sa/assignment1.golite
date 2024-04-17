@@ -1,0 +1,9 @@
+func foo(x int) int {
+	var y bool;
+    y = x;
+    return 8;
+}
+
+func main() {
+	
+}

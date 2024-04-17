@@ -1,0 +1,14 @@
+func main() {
+    var a int;
+    scan a;
+    printf("a = %d\nTesting a < 10\n", a);
+    if (a < 10) {
+        a = 13;
+        printf("In true block: a = %d\n", a);
+    } else {
+        a = 4;
+        printf("In false block: a = %d\n", a);
+    }
+    a = 15;
+    printf("Exited conditional\na = %d\n", a);
+}

@@ -1,0 +1,8 @@
+func main() {
+    var a, b, c int;
+    return;
+    a = 1;
+    b = 2;
+    c = a + b;
+    printf("a = %d, b = %d, c = %d\n", a, b, c);
+}

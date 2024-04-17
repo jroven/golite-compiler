@@ -1,0 +1,17 @@
+func main() {
+    var a, b int;
+    a = 10;
+    printf("About to enter first for loop, a = %d\n", a);
+    for (a > 0) {
+        a = a - 1;
+        if (a == 7) {
+            printf("Inside for loop, a = %d\n", a);
+            b = 0;
+            for (b < 3) {
+                printf("Nested for loop!\n");
+                b = b + 1;
+            }
+        }
+    }
+    printf("Outside for loop, a = %d\n", a);
+}

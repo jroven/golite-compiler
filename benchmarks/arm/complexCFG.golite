@@ -1,0 +1,33 @@
+func foo(a int) int {
+    printf("In foo, comparing a > 10\n");
+    if (a > 10) {
+        printf("In true block, returning 4\n");
+        return 4;
+    } else {
+        printf("In false block, not returning yet\n");
+    }
+    printf("Exited conditional, returning 8\n");
+    return 8;
+}
+
+func bar(b int) int {
+    printf("In bar, about to begin for loop (b > 10). Currently b = %d\n", b);
+    for (b > 10) {
+        b = b - 1;
+        printf("Decremented b, now b = %d\n", b);
+    }
+    printf("Exited for loop, b = %d. Returning 2\n", b);
+    return 2;
+}
+
+func main() {
+    var a, b, c, d int;
+    printf("Type in a value for a:\t");
+    scan a;
+    printf("Type in a value for b:\t");
+    scan b;
+    c = foo(a);
+    printf("foo(a) = %d\n", c);
+    d = bar(b);
+    printf("bar(b) = %d\n", d);
+}

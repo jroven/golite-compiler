@@ -1,0 +1,59 @@
+func foo(x1 int, x2 int, x3 int, x4 int, x5 int, x6 int, x7 int, x8 int, x9 int, x10 int, x11 int, x12 int, x13 int, x14 int, x15 int, x16 int, x17 int, x18 int, x19 int, x20 int, x21 int, x22 int, x23 int, x24 int, x25 int, x26 int, x27 int, x28 int, x29 int, x30 int, x31 int, x32 int, x33 int, x34 int, x35 int, x36 int, x37 int, x38 int, x39 int, x40 int, x41 int, x42 int, x43 int, x44 int, x45 int, x46 int, x47 int, x48 int, x49 int, x50 int) int {
+    return x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9 + x10 + x11 + x12 + x13 + x14 + x15 + x16 + x17 + x18 + x19 + x20 + x21 + x22 + x23 + x24 + x25 + x26 + x27 + x28 + x29 + x30 + x31 + x32 + x33 + x34 + x35 + x36 + x37 + x38 + x39 + x40 + x41 + x42 + x43 + x44 + x45 + x46 + x47 + x48 + x49 + x50;
+}
+
+func main() {
+    var a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19, a20, a21, a22, a23, a24, a25, a26, a27, a28, a29, a30, a31, a32, a33, a34, a35, a36, a37, a38, a39, a40, a41, a42, a43, a44, a45, a46, a47, a48, a49, a50, sum int;
+    a1 = 1;
+    a2 = 2;
+    a3 = 3;
+    a4 = 4;
+    a5 = 5;
+    a6 = 6;
+    a7 = 7;
+    a8 = 8;
+    a9 = 9;
+    a10 = 10;
+    a11 = 11;
+    a12 = 12;
+    a13 = 13;
+    a14 = 14;
+    a15 = 15;
+    a16 = 16;
+    a17 = 17;
+    a18 = 18;
+    a19 = 19;
+    a20 = 20;
+    a21 = 21;
+    a22 = 22;
+    a23 = 23;
+    a24 = 24;
+    a25 = 25;
+    a26 = 26;
+    a27 = 27;
+    a28 = 28;
+    a29 = 29;
+    a30 = 30;
+    a31 = 31;
+    a32 = 32;
+    a33 = 33;
+    a34 = 34;
+    a35 = 35;
+    a36 = 36;
+    a37 = 37;
+    a38 = 38;
+    a39 = 39;
+    a40 = 40;
+    a41 = 41;
+    a42 = 42;
+    a43 = 43;
+    a44 = 44;
+    a45 = 45;
+    a46 = 46;
+    a47 = 47;
+    a48 = 48;
+    a49 = 49;
+    a50 = 50;
+    sum = foo(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19, a20, a21, a22, a23, a24, a25, a26, a27, a28, a29, a30, a31, a32, a33, a34, a35, a36, a37, a38, a39, a40, a41, a42, a43, a44, a45, a46, a47, a48, a49, a50);
+    printf("sum = %d\n", sum);
+}

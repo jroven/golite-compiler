@@ -1,0 +1,13 @@
+type Struct1 struct {
+    a int; 
+    b int; 
+};
+
+type Struct2 struct {
+    c int;
+    d *Struct1;
+};
+
+func main() {
+	
+}

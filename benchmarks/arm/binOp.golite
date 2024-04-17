@@ -1,0 +1,8 @@
+func main() {
+    var a, b, c, d int;
+    a = 10;
+    b = a * 12;
+    c = a + b;
+    d = c + 5 - 12 / 6;
+    printf("a=%d\nb=%d\nc=%d\nd=%d\n",a,b,c,d);
+}

@@ -1,0 +1,18 @@
+type Struct1 struct {
+    a int; 
+    b int; 
+};
+
+type Struct1 struct {
+    c int;
+    d bool;
+};
+
+type Struct2 struct {
+    e int;
+    e bool;
+};
+
+func main() {
+	
+}

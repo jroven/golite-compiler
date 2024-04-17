@@ -1,0 +1,18 @@
+var gVar1 int;
+var gVar2 int;
+
+//func printGlob(a int) {
+    //printf("gVar1=%d\n", gVar1);
+    //printf("a=%d\n", a);
+    //gVar2 = a + gVar1;
+  //  printf("gVar2=%d\n", gVar2);
+//}
+
+func main() {
+    //gVar1 = 2;
+    //printf("gVar1=%d\n", gVar1);
+    gVar2 = 2000 + gVar1;
+    printf("gVar2=%d\n", gVar2);
+    //printGlob(gVar1);
+    //printf("hi\n");
+}

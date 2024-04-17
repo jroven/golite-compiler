@@ -1,0 +1,16 @@
+type Point2D struct {
+	x *Point2D; 
+	y int; 
+};
+
+func main() {
+	var newPt *Point2D; 
+	var a int;
+	newPt = nil;
+	newPt = new Point2D;
+	newPt.x = nil; 
+	newPt.x = new Point2D;
+    newPt.x.y = 5;
+	a = newPt.x.y;
+	printf("a=%d\n", a);
+}

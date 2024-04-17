@@ -1,0 +1,11 @@
+func main() {
+
+    var a int;
+
+    if (1 == 2) {
+        a = 5;
+    } else {
+        a = 4;
+    }
+    printf("a = %d\n", a);
+}

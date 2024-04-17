@@ -1,0 +1,13 @@
+func main() {
+    if ((2 == 4) || (6 == 6)) {
+        printf("1. true\n");
+    } else {
+        printf("1. false\n");
+    }
+
+    if (!(2 + 2 == 4)) {
+        printf("2. true\n");
+    } else {
+        printf("2. false\n");
+    }
+}
