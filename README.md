@@ -1,4 +1,4 @@
-# How to run the compiler on the CS Linux Servers
+# How to run the compiler
 Step 1: Run "./build.sh" to build the golitec executable
 Step 2: Run "./golitec {flags} fileToCompile"
 
